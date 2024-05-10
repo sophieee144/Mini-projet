@@ -1,0 +1,271 @@
+body,
+html {
+  margin: 0;
+  padding: 0;
+  font-family: "Arial", sans-serif;
+  background: #f4f4f4;
+  color: #333;
+}
+.container {
+  display: flex;
+  min-height: 100vh;
+  width: 100%;
+  background: url("d56d20b4-1072-48c0-b832-deecf6641d49.webp") no-repeat center
+    center fixed;
+  background-size: cover; /* Cover the entire container */
+}
+.header {
+  width: 100%;
+  background: rgba(0, 0, 0, 0.6);
+  color: white;
+  padding: 20px;
+  text-align: center;
+  font-size: 2rem;
+}
+.content-area {
+  flex-grow: 1;
+  padding: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  background: rgba(255, 255, 255, 0.8);
+}
+.card {
+  background: white;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+  margin: 10px;
+  padding: 20px;
+  width: 300px;
+  border-radius: 10px;
+  display: none;
+  opacity: 0;
+  transform: scale(0.9);
+  transition: opacity 0.5s, transform 0.5s;
+}
+.profile-img {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  display: block;
+  margin: 10px auto;
+  border: 3px solid #5c4ac7;
+}
+h1,
+h2 {
+  text-align: center;
+  color: #5c4ac7;
+}
+p,
+ul {
+  margin: 5px 0;
+  line-height: 1.6;
+  text-align: center;
+}
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+li {
+  margin: 5px 0;
+  padding: 5px;
+  background-color: #eee;
+  border-radius: 5px;
+}
+.project-item {
+  background: #fff;
+  border: 1px solid #ddd;
+  padding: 15px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+}
+.project-item h3 {
+  color: #5c4ac7;
+}
+.project-item p {
+  font-size: 0.9rem;
+  color: #666;
+}
+.project-item a {
+  text-decoration: none;
+  color: #5c4ac7;
+  margin-left: 10px;
+}
+.project-item a:hover {
+  text-decoration: underline;
+}
+.flex {
+  display: flex;
+}
+
+.flex-col {
+  flex-direction: column;
+}
+
+.items-center {
+  align-items: center;
+}
+
+.w-40 {
+  width: 10rem; /* 40px */
+}
+
+.h-full {
+  height: 100%;
+}
+
+.overflow-hidden {
+  overflow: hidden;
+}
+
+.text-gray-400 {
+  color: #cbd5e0; /* Gray 400 */
+}
+
+.bg-gray-900 {
+  background-color: #1a202c; /* Gray 900 */
+}
+
+.rounded {
+  border-radius: 0.25rem; /* 4px */
+}
+
+.w-full {
+  width: 100%;
+}
+
+.px-3 {
+  padding-left: 0.75rem; /* 3px */
+  padding-right: 0.75rem; /* 3px */
+}
+
+.mt-3 {
+  margin-top: 0.75rem; /* 3px */
+}
+
+.ml-2 {
+  margin-left: 0.5rem; /* 2px */
+}
+
+.text-sm {
+  font-size: 0.875rem; /* 14px */
+}
+
+.font-bold {
+  font-weight: 700;
+}
+
+.flex {
+  display: flex;
+}
+
+.items-center {
+  align-items: center;
+}
+
+.hover\:bg-gray-700:hover {
+  background-color: #4a5568; /* Gray 700 */
+}
+
+.hover\:text-gray-300:hover {
+  color: #e2e8f0; /* Gray 300 */
+}
+
+.hover\:bg-gray-800:hover {
+  background-color: #2d3748; /* Gray 800 */
+}
+
+.hover\:bg-gray-700:hover {
+  background-color: #4a5568; /* Gray 700 */
+}
+
+.hover\:text-gray-300:hover {
+  color: #e2e8f0; /* Gray 300 */
+}
+
+.hover\:bg-gray-800:hover {
+  background-color: #2d3748; /* Gray 800 */
+}
+
+.hover\:bg-gray-700:hover {
+  background-color: #4a5568; /* Gray 700 */
+}
+
+.hover\:text-gray-300:hover {
+  color: #e2e8f0; /* Gray 300 */
+}
+
+.hover\:bg-gray-700:hover {
+  background-color: #4a5568; /* Gray 700 */
+}
+
+.hover\:text-gray-300:hover {
+  color: #e2e8f0; /* Gray 300 */
+}
+
+.hover\:bg-gray-800:hover {
+  background-color: #2d3748; /* Gray 800 */
+}
+
+.hover\:text-gray-300:hover {
+  color: #e2e8f0; /* Gray 300 */
+}
+
+.hover\:bg-gray-700:hover {
+  background-color: #4a5568; /* Gray 700 */
+}
+
+.hover\:text-gray-300:hover {
+  color: #e2e8f0; /* Gray 300 */
+}
+
+.bg-gray-800 {
+  background-color: #2d3748; /* Gray 800 */
+}
+
+.hover\:bg-gray-700:hover {
+  background-color: #4a5568; /* Gray 700 */
+}
+
+.hover\:text-gray-300:hover {
+  color: #e2e8f0; /* Gray 300 */
+}
+
+.hover\:text-gray-300:hover {
+  color: #e2e8f0; /* Gray 300 */
+}
+
+.absolute {
+  position: absolute;
+}
+
+.top-0 {
+  top: 0;
+}
+
+.left-0 {
+  left: 0;
+}
+
+.w-2 {
+  width: 0.5rem; /* 2px */
+}
+
+.h-2 {
+  height: 0.5rem; /* 2px */
+}
+
+.mt-2 {
+  margin-top: 0.5rem; /* 2px */
+}
+
+.ml-2 {
+  margin-left: 0.5rem; /* 2px */
+}
+
+.bg-indigo-500 {
+  background-color: #4c51bf; /* Indigo 500 */
+}
+
+.rounded-full {
+  border-radius: 9999px; /* Large rounded radius */
+}
